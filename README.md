@@ -3,7 +3,10 @@
 A Streamlit app that pulls the latest 30 articles from Indian + tech RSS
 feeds, classifies each one into 5 categories with **zero-shot
 BART-MNLI**, and writes a 3-line summary with **Gemini 1.5 Flash**.
-This is the link for our website : https://news-aggregator-d8c32d4p69d6f7k6t4f9q2.streamlit.app/
+
+## Website link
+
+https://fast-news-tracker.streamlit.app/
 
 ## What's in this folder
 
