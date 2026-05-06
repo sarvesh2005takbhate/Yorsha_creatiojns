@@ -37,6 +37,10 @@ export GEMINI_API_KEY="your_free_key_from_aistudio.google.com"
 streamlit run app.py
 ```
 
+## UI screen shot
+
+![UI](image.png)
+![UI](image2.png)
 ## Stack
 
 | Layer            | Library / model                        |
