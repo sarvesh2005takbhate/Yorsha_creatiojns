@@ -32,6 +32,3 @@ data/
 # Streamlit
 .streamlit/secrets.toml
 explaination.txt
-image.png
-image2.png
-

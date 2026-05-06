@@ -41,6 +41,7 @@ streamlit run app.py
 
 ![UI](image.png)
 ![UI](image2.png)
+
 ## Stack
 
 | Layer            | Library / model                        |
