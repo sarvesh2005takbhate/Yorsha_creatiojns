@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+ENTER/
+.env
+
+data/
+*.csv.gz
+*.zip
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# latex aux
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# pitch.png is a deliverable — keep it in /output
+# Streamlit
+.streamlit/secrets.toml
+explaination.txt
+
+

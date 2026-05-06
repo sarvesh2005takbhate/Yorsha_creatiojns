@@ -1,0 +1,40 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n_samples": 1000,
+  "accuracy": 0.795,
+  "macro_f1": 0.7957329247035989,
+  "weighted_f1": 0.795732924703599,
+  "per_class": {
+    "Politics": {
+      "precision": 0.8351063829787234,
+      "recall": 0.785,
+      "f1": 0.8092783505154639
+    },
+    "Sports": {
+      "precision": 0.8905472636815921,
+      "recall": 0.895,
+      "f1": 0.8927680798004988
+    },
+    "Technology": {
+      "precision": 0.7692307692307693,
+      "recall": 0.75,
+      "f1": 0.759493670886076
+    },
+    "Business": {
+      "precision": 0.6542056074766355,
+      "recall": 0.7,
+      "f1": 0.6763285024154589
+    },
+    "Entertainment": {
+      "precision": 0.8366336633663366,
+      "recall": 0.845,
+      "f1": 0.8407960199004975
+    }
+  },
+  "latency_total_s": 142.7,
+  "latency_per_doc_ms": 142.7,
+  "device": "NVIDIA T4 (Colab) \u2014 float16",
+  "hypothesis_template": "This text is about {}.",
+  "timestamp": "2026-05-06T07:25:25.860206Z",
+  "notes": "Eval set: 1000 balanced headlines (200/class) drawn from kaggle.com/datasets/therohk/india-headlines-news-dataset after collapsing dot-path categories into the 5 target classes."
+}

@@ -1,0 +1,18 @@
+streamlit>=1.31.0
+feedparser>=6.0.10
+
+# transformers + torch stack
+transformers>=4.40.0
+torch>=2.0.0
+# torchvision is not strictly needed for BART-MNLI, but transformers'
+# image-processing modules import it eagerly.  Including it silences
+# the ModuleNotFoundError noise at startup.
+torchvision>=0.15.0
+
+google-generativeai>=0.5.0
+
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
